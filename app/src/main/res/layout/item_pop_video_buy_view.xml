@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/item_parent_view"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/buy_list_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_buy_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/buy_list_img"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="玫瑰"
+        android:textColor="#987321" />
+
+
+    <TextView
+        android:id="@+id/item_buy_list_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/buy_list_img"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/buy_list_img"
+
+        android:text="发撒个"
+        android:textColor="#186153" />
+
+
+</RelativeLayout>
